@@ -12,8 +12,7 @@ namespace Modul3
         public App()
         {
             InitializeComponent();
-
-            MainPage = new Modul3.MainPage();
+            MainPage = new NavigationPage(new BindingListString());
         }
 
         protected override void OnStart()
